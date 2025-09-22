@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Siklus Air — Biodata Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0b1020;--card:#0f1730;--line:#243258;--txt:#e9f1ff;--acc:#54b1ff;--acc2:#5eead4;--muted:#9fb4d3}
+    body{margin:0;font-family:Poppins,system-ui;background:var(--bg);color:var(--txt)}
+
+    /* NAVBAR */
+    .nav{position:sticky; top:0; z-index:50; background:#0c1328e6; backdrop-filter:blur(6px); border-bottom:1px solid var(--line)}
+    .nav .row{max-width:1100px;margin:0 auto;padding:10px 16px;display:flex;gap:16px;align-items:center;justify-content:space-between}
+    .brand{font-weight:700}
+    .brand span{background:linear-gradient(90deg,var(--acc),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
+    .links{display:flex;gap:12px;flex-wrap:wrap}
+    .links a{color:#cfe4ff;text-decoration:none;font-weight:600;padding:6px 10px;border:1px solid #1e2c56;border-radius:10px}
+    .links a.active{background:#132147}
+
+    /* WRAP & CARD */
+    .wrap{max-width:1000px;margin:24px auto;padding:0 16px}
+    h1{margin:0 0 20px; font-size:clamp(22px,4.5vw,36px);
+       background:linear-gradient(90deg,var(--acc),var(--acc2));
+       -webkit-background-clip:text; background-clip:text; color:transparent; text-align:center}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;transition:.25s ease;cursor:default}
+    .card:hover{transform:translateY(-8px);box-shadow:0 8px 22px rgba(0,0,0,.5)}
+
+    .avatar{width:120px;height:120px;border-radius:50%;background:#15224a;border:2px solid #23407a;
+      display:flex;align-items:center;justify-content:center;font-weight:700;margin:0 auto 12px}
+    .info{text-align:center}
+    .info p{margin:4px 0;color:var(--muted)}
+    .tag{display:inline-block;background:#102045;border:1px solid #23407a;border-radius:10px;
+      padding:4px 8px;margin:4px 4px 0 0;font-size:13px}
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="row">
+      <div class="brand">Siklus Air • <span>Biodata</span></div>
+      <div class="links">
+        <a href="index.html">Materi</a>
+        <a href="evaluasi.html">Evaluasi</a>
+        <a class="active" href="biodata.html">Biodata Developer</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="wrap">
+    <h1>Biodata Developer</h1>
+    <div class="grid">
+
+      <!-- ORANG 1 -->
+      <div class="card">
+        <div class="avatar">Foto</div>
+        <div class="info">
+          <b>Nama:</b> Elsha Dwi Setia Ningsih<br>
+          <p>NIM: 2305176004</p>
+          <p>Email: andi@email.com</p>
+          <div>
+            <span class="tag">HTML/CSS/JS</span>
+            <span class="tag">UI/UX</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ORANG 2 -->
+      <div class="card">
+        <div class="avatar">Foto</div>
+        <div class="info">
+          <b>Nama:</b> Adhe Bhima Surya Saputra<br>
+          <p>NIM: 2305176012</p>
+          <p>IG: @budi.dev</p>
+          <div>
+            <span class="tag">p5.js</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ORANG 3 -->
+      <div class="card">
+        <div class="avatar">Foto</div>
+        <div class="info">
+          <b>Nama:</b> Muhammad Faisal<br>
+          <p>NIM: 2305176030</p>
+          <p>LinkedIn: linkedin.com/in/citra</p>
+          <div>
+            <span class="tag">Desain Grafis</span>
+            <span class="tag">UI/UX</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ORANG 4 -->
+      <div class="card">
+        <div class="avatar">Foto</div>
+        <div class="info">
+          <b>Nama:</b> Muhammad Fahril Maulana<br>
+          <p></p>NIM: 2305176035<br>
+          <p>IG: ingngau10</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
